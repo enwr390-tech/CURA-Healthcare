@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-07T19:21:10 GMT+03:00" name="CuraSuite" finished-at="2026-10-07T19:22:14 GMT+03:00" duration-ms="64424">
+    <groups>
+    </groups>
+    <test started-at="2026-10-07T19:21:10 GMT+03:00" name="CuraTests" finished-at="2026-10-07T19:22:14 GMT+03:00" duration-ms="64424">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:10 GMT+03:00" name="setup" finished-at="2026-10-07T19:21:41 GMT+03:00" duration-ms="31063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:41 GMT+03:00" name="invalidLogin" finished-at="2026-10-07T19:21:44 GMT+03:00" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:44 GMT+03:00" name="close" finished-at="2026-10-07T19:21:44 GMT+03:00" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:44 GMT+03:00" name="setup" finished-at="2026-10-07T19:21:57 GMT+03:00" duration-ms="12476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:57 GMT+03:00" name="validLogin" finished-at="2026-10-07T19:21:58 GMT+03:00" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.LoginTest@56da52a7]" started-at="2026-10-07T19:21:58 GMT+03:00" name="close" finished-at="2026-10-07T19:21:58 GMT+03:00" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomeTest@417d6615]" started-at="2026-10-07T19:21:58 GMT+03:00" name="setup" finished-at="2026-10-07T19:22:11 GMT+03:00" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookAppointment()[pri:0, instance:tests.HomeTest@417d6615]" started-at="2026-10-07T19:22:11 GMT+03:00" name="bookAppointment" finished-at="2026-10-07T19:22:14 GMT+03:00" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointment -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.HomeTest@417d6615]" started-at="2026-10-07T19:22:14 GMT+03:00" name="close" finished-at="2026-10-07T19:22:14 GMT+03:00" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.HomeTest -->
+    </test> <!-- CuraTests -->
+  </suite> <!-- CuraSuite -->
+</testng-results>
